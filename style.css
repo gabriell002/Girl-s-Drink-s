@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+  }
+  img{
+    height: 150px;
+    width: 150px;
+  }
+  
+  header {
+    background-color: #d6adecc7;
+    background: linear-gradient(#af99ec, #d6adecc7 );
+    padding: 20px 0;
+    
+  }
+  
+  .caixa {
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  nav {
+    position: absolute;
+    top: 55px;
+    right: 0;
+    
+  }
+  
+  nav li {
+  
+    display: inline;
+    
+  }
+  
+  nav a {
+    text-transform: uppercase;
+    color: #0d0d0e;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    
+    
+  }
+  
+  
+  nav a:hover{
+    color: #8e50eb;
+    border: solid 3px rgb(85, 52, 160);
+    border-radius: 50px;
+    
+    
+}
+
+.banner{
+    /* height: 188px; */
+    
+   /* background-position: center; */
+   /* background-repeat: no-repeat; */
+   /* background-size: cover; */
+}
+
+.container{
+    width: 100%;
+}
+
+.tonica{
+    width: 100%;
+    height: auto;
+
+}
+
+.nome{
+    position: absolute;
+    height: 50%;
+   left: 40%;
+   /* transform: translate(-50, -50);*/
+   text-align: center;
+    font-size: 80px;
+    color: white;
+    text-shadow: 2px 2px 2px gray; 
+
+}
+
+
+
+
+.historia{
+    color: black;
+    font-size: 20px;
+    text-align: center; 
+   /* background-color: rgba(0, 0, 0, 0.6); */
+    width: 60%;
+    margin: auto; 
+    
+    
+}
+
+main{
+    background: linear-gradient(#d6adecc7,#af99ec);
+    padding: 20px;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    
+    
+}
+
+footer p{
+    color: white;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+
+
+
